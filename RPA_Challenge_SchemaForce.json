@@ -1,0 +1,36 @@
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RPA Challenge",
+  "type": "object",
+  "properties": {
+    "Email": {
+      "type": "string",
+      "description": "The person's Email Address."
+    },
+    "CompanyName": {
+      "type": "string",
+      "description": "The name of company"
+    },
+    "FirstName": {
+      "description": "First Name.",
+      "type": "string"
+    },
+	"RoleInCompany": {
+	  "description": "Role of person in company",
+      "type": "string"
+    },
+	"PhoneNumber": {
+	  "description": "Phone number of person",
+      "type": "string"
+    },
+	"LastName": {
+      "description": "Last Name.",
+      "type": "string"
+    },
+	"Address": {
+      "description": "Address of Person",
+      "type": "string"
+    }
+  }
+}
